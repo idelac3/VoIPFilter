@@ -128,7 +128,7 @@ public class VoIPFilter {
 		final SIPMatcherHandler handler = new SIPMatcherHandler(filter);
 		
 		//
-		// Define output steam, usually file, or std.out if -w or --write argument is missing.
+		// Define output stream, usually file, or std.out if -w or --write argument is missing.
 		//
 		
 		final OutputStream outputStream;
